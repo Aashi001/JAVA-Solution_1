@@ -1,0 +1,26 @@
+public class Main
+{
+    public void bat(int[] arr){
+        int n=arr.length;
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]+ " ");
+        }
+       // System.out.println();
+    }
+    public void arraydemo(){
+        int[] myarray=new int[5];
+        //bat(myarray);
+        myarray[0]=6;
+         myarray[1]=9 ;
+          myarray[2]=4; 
+           myarray[3]=0;
+          myarray[4]=62;
+           myarray[3]=9;
+           // myarray[5]=62;
+        bat(myarray);
+    }
+	public static void main(String[] args) {
+		Main j=new Main();
+		j.arraydemo();
+	}
+}
